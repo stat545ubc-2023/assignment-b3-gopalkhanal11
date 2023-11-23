@@ -1,0 +1,12 @@
+name: assignment-b3-gopalkhanal11
+title: assignment-b3-gopalkhanal11
+username: gopal-khanal
+account: gopal-khanal
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10614391
+bundleId:
+url: https://gopal-khanal.shinyapps.io/assignment-b3-gopalkhanal11/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
