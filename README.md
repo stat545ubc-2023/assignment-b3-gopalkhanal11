@@ -2,16 +2,21 @@
 
 [Link to run the app](https://gopal-khanal.shinyapps.io/assignment-b3-gopalkhanal11/) 
 
+Created by Gopal Khanal
+2023-11-23
+
 ## Description
 
-The Palmer Penguins Shiny App provides customize visualization of `penguins` dataset collected from Palmer Archipelago of Antarctica between the years 2007 to 2009. The data includes measurements of body mass, bill depth, flipper length of three species of penguins Adelie, Chinstrap, and Gentoo from three islands iscoe, Dream, and Torgensen within Palmer Archipelago.
+The Palmer Penguins Shiny App provides customize visualization of `penguins` dataset collected from Palmer Archipelago of Antarctica between the years 2007 to 2009. The data includes measurements of body mass, bill depth, and flipper length of three species of penguins Adelie, Chinstrap, and Gentoo from three islands iscoe, Dream, and Torgensen within Palmer Archipelago.
 
-The shiny app includes box plot, descriptive summary of body mass and whole data table. The boxplot allows users  to compare whether body mass of penguins across differs among species, island, and based on sex, and year.
+The shiny app includes box plot, descriptive summary of body mass, and whole data table. The boxplot allows users  to compare whether body mass of penguins across differs among species, island, and based on sex, and year.
 
 
 ### Shiny App Features
 
 #### Boxplot 
+
+Users can select the categorical variable for which they want to compare body mass of penguins
 
 1. **Species**: The body mass of penguins summarized across species 
 

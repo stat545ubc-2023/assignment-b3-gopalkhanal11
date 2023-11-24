@@ -59,7 +59,7 @@ ui <- fluidPage(
    # plotOutput("bodymassPlot")
     tabsetPanel(type = "tabs",
                 tabPanel("Box Plot", plotOutput("bodymassPlot")),
-                tabPanel("Summary Table", verbatimTextOutput("summary_text"), downloadButton("downloadSummary)", "Download")),
+                tabPanel("Summary Table", verbatimTextOutput("summary_text")),
                 tabPanel("Penguins Table", DTOutput("penguins_table"),downloadButton("downloadData", "Download"))
     )
   )
@@ -109,14 +109,6 @@ server <- function(input, output) {
   summary_text()
     })
   
-  output$downloadSummary <- downloadHandler(
-    filename = function() {
-      paste("summarydata_", Sys.Date(), ".csv", sep = "")
-    },
-    content = function(file) {
-      write.csv(summary_text, file)
-    }
-  )
   
   
   
